@@ -1,0 +1,45 @@
+# bins
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.out
+*.test
+
+# Go dependencies
+/vendor/
+/bin/
+/pkg/
+
+# Go cache and build
+*.log
+*.prof
+
+# Go Modules dir
+go.work
+go.work.sum
+
+# Temp files and IDEs
+*.swp
+*.swo
+*.DS_Store
+*.vscode/
+.idea/
+*.iml
+
+# OS Files
+Thumbs.db
+ehthumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# PDF and custom files
+resume.pdf
+data/*
+!data/resume.yaml
+assets/img/*
+!assets/img/profile.jpg

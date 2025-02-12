@@ -1,0 +1,95 @@
+name: Tintin
+location: Brussels, Belgium
+email: tintin@lepetitvingtieme.com
+website: https://the-adventures-of-tintin.com
+profile: >
+  An intrepid journalist and adventurer with a keen eye for uncovering the truth. 
+  Renowned for traveling the world, solving mysteries, and fighting injustice. 
+  Skilled in investigative journalism, survival tactics, and diplomacy, 
+  often navigating complex international conspiracies with courage and intelligence.
+
+work_experience:
+  - title: Investigative Journalist
+    company: Le Petit Vingtième
+    date: 1929 – Present
+    description: >
+      As a journalist at Le Petit Vingtième, I have traveled the world solving 
+      high-profile mysteries, exposing criminal organizations, and uncovering 
+      hidden conspiracies, all while maintaining my journalistic integrity.
+    responsibilities:
+      - Conducted investigations into international smuggling rings and political corruption.
+      - Published groundbreaking exposés on crime syndicates and secret societies.
+      - Rescued kidnapped scientists and political figures from dangerous organizations.
+      - Collaborated with international law enforcement to bring criminals to justice.
+      - Uncovered lost civilizations and ancient treasures, contributing to historical knowledge.
+      - Survived hostile environments, including deserts, jungles, and Arctic expeditions.
+      - Maintained strong relationships with key sources, including law enforcement and intelligence agencies.
+
+education:
+  - degree: Journalism and Investigative Reporting
+    institution: Université Libre de Bruxelles
+    date: 1925 – 1929
+    description: >
+      Studied investigative journalism, ethics, and international reporting.
+      Developed expertise in undercover reporting, field research, and source protection.
+    subjects:
+      - Investigative Journalism
+      - Ethics in Media
+      - International Affairs
+      - Conflict Resolution
+      - Historical Research
+      - Law and Criminal Justice
+
+skills:
+  - category: "Technical Abilities"
+    items:
+      - name: "Investigative Journalism"
+        level: 5
+      - name: "Multilingual Communication"
+        level: 5
+      - name: "Survival Tactics"
+        level: 5
+      - name: "Criminal Profiling"
+        level: 4
+      - name: "Combat and Self-Defense"
+        level: 4
+      - name: "Disguise and Undercover Operations"
+        level: 4
+      - name: "Map Reading and Navigation"
+        level: 4
+      - name: "Photography and Documentation"
+        level: 3
+  - category: "Process Abilities"
+    items:
+      - name: "Crisis Management"
+        level: 5
+      - name: "Ethical Reporting"
+        level: 5
+      - name: "Diplomacy and Negotiation"
+        level: 5
+      - name: "Research and Archival Analysis"
+        level: 4
+      - name: "Emergency Response"
+        level: 4
+      - name: "Conflict Mediation"
+        level: 3
+
+languages:
+  - name: "French"
+    level: "Native / Fluent"
+  - name: "English"
+    level: "Fluent"
+  - name: "Spanish"
+    level: "Professional Proficiency"
+  - name: "Chinese"
+    level: "Basic"
+
+certifications:
+  - name: "International Press Credentials"
+    organization: "International Federation of Journalists"
+    date: 1930 – Present
+    link: "https://www.primevideo.com/-/en/detail/The-Adventures-of-Tintin/0NHEKJMW8JG7FKW1I5OKM4KZNB"
+  - name: "Wilderness Survival Certification"
+    organization: "Global Exploration Society"
+    date: 1935 – Present
+    link: "https://www.primevideo.com/-/en/detail/The-Adventures-of-Tintin/0NHEKJMW8JG7FKW1I5OKM4KZNB"
