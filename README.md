@@ -2,6 +2,8 @@
 
 Goresume is a simple tool that generates a resume from a YAML file, creating both a web page and a downloadable PDF.
 
+![Demo](assets/demo.gif)
+
 ## Features
 
 - **Web View:** The resume is served as a web page to build and test.
