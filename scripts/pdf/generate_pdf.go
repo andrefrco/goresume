@@ -9,23 +9,13 @@ import (
 	"os"
 	"time"
 
-	"github.com/andrefrco/resume/scripts/resume"
+	"github.com/andrefrco/resume/scripts/serve"
 	"github.com/chromedp/cdproto/page"
 	"github.com/chromedp/chromedp"
 )
 
 func GeneratePDF() {
-	mux := http.NewServeMux()
-	mux.Handle("/assets/", http.StripPrefix("/assets/", http.FileServer(http.Dir("assets"))))
-	mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		html, err := resume.RenderResumeHTML()
-		if err != nil {
-			http.Error(w, err.Error(), http.StatusInternalServerError)
-			return
-		}
-		w.Header().Set("Content-Type", "text/html")
-		w.Write(html)
-	})
+	mux := serve.NewMux()
 
 	listener, err := net.Listen("tcp", ":0")
 	if err != nil {

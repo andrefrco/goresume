@@ -8,11 +8,9 @@ import (
 	"github.com/andrefrco/resume/scripts/resume"
 )
 
-func StartServer() {
+func NewMux() *http.ServeMux {
 	mux := http.NewServeMux()
-
 	mux.Handle("/assets/", http.StripPrefix("/assets/", http.FileServer(http.Dir("assets"))))
-
 	mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		html, err := resume.RenderResumeHTML()
 		if err != nil {
@@ -27,10 +25,13 @@ func StartServer() {
 		w.Header().Set("Content-Type", "text/html")
 		w.Write(html)
 	})
+	return mux
+}
 
+func StartServer() {
+	mux := NewMux()
 	port := 8080
 	log.Printf("Serving on http://localhost:%d\n", port)
-
 	server := &http.Server{
 		Addr:    fmt.Sprintf(":%d", port),
 		Handler: mux,
